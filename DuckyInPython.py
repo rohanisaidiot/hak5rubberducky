@@ -55,6 +55,9 @@ def parseLine(line):
     else:
         newScriptLine = convertLine(line)
         runScriptLine(newScriptLine)
+	
+	 #wat am i doing with my life 
+	 #get some sleep rohan 
 
 kbd = Keyboard(usb_hid.devices)
 layout = KeyboardLayoutUS(kbd)
